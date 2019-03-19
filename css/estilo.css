@@ -1,0 +1,38 @@
+.lingua a {margin: 5px; float: right; width: 28px; height: 20px;}
+
+.linkindex{text-align: center; padding-top: 17px;}
+.linkindex a{color: #E10000 !important; font-style: italic;}
+.linkindex a:hover{color: #667766 !important;}
+
+
+.textocentralizado{text-align: center;}
+
+
+.investimento{width:100%; padding: 10px; font-size: 18px; background:#003906; text-align: center; margin-bottom: 15px;}
+.investimento a{text-decoration: none; color:#FFF;}
+
+.espacoimgemoriental{width:100%; min-height: 160px;}
+
+.oriental h2{color:#2F6146;}
+.oriental h4{color:#F8D216;}
+.oriental p{text-align: justify !important;}
+.orientaltextodourado{color:#BEA112;}
+
+.textolinkover{font-size: 13px !important;}
+
+.umbra h1{color: #2780c5 !important;}
+.umbra h2{color: #999 !important;}
+.umbra h3{color: #2780c5 !important;}
+.umbra h4{color: #2780c5 !important; }
+.umbra h5{text-align: center; font-style: italic; color: #2780c5 !important; }
+
+.fioazulMB{width: 100%; border: 1px solid #2780c5; margin:5px 0px 20px 0px; float: left}
+
+.fioazul{width: 100%; border: 1px solid #2780c5; margin:5px 0px 20px 0px; }
+
+
+.fundocinzagroup{background: #F2F2F2;}
+
+.tituloproduct{float: left}
+
+.fiocinza{background: #ccc; width: 100%; height: 2px;}

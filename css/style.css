@@ -1,0 +1,287 @@
+.fundo {min-height:40px; background:#000;margin-top:-20px;}
+.textotopo {font-family: 'Open Sans', sans-serif; font-size:17px; color:#B8C99A; text-align:right; margin-top:7px;}
+.bgtopo {min-height:170px; background:url(../img/bgtopo.jpg);}
+.logo {margin-top:5px;}
+.logo img {max-width:100%; max-height:100%;}
+
+.fundomenu {background-color:transparent; border:none; margin-bottom:0px;}
+.bt {}
+.menu {}
+.menu ul { margin-left:-60px;}
+.menu li {font-family: 'Open Sans', sans-serif; font-size:20px; display:block; float:left; margin-right:28px; margin-top:20px;}
+.menu li a {color:#001900; text-decoration:none; float: right;}
+.menu li a:hover {border-bottom:2px solid #667766;}
+.margem {margin-right:-35px;}
+
+.menupt ul { margin-left:-60px;}
+.menupt li {font-family: 'Open Sans', sans-serif; font-size:18px; display:block; float:right; margin-right:25px; margin-top:20px;}
+.menupt li a {color:#001900; text-decoration:none;}
+.menupt li a:hover {border-bottom:2px solid #667766;}
+.foto img {max-width:100%; max-height:100%;border-radius:8px;box-shadow:4px 5px 8px #777; margin-bottom: 40px;}
+
+
+/*-- desktop 1024x768 --*/
+@media(min-width:769px) and (max-width:1280px){
+.menu ul { margin-left:-70px !important;}
+.menu li {font-family: 'Open Sans', sans-serif; font-size:18px !important; display:block; float:left; margin-right:15px !important; margin-top:70px !important;}
+.margem {margin-right:-35px;}
+.lingua a {margin: 5px; float: right; width: 28px; height: 20px;  }
+}
+
+
+/*-- celular e tablet --*/
+@media(max-width:768px){
+.textotopo {font-size:13px !important; color:#B8C99A; text-align:center !important; margin-top:13px !important;}
+.menu ul { margin-left:-20px !important;}
+.menu li {font-size:20px; display:block; float:none !important; margin-right:0px !important; margin-top:10px !important;}
+
+.frase { font-size:24px !important; }
+.titulolinks {font-size:23px !important; color:#003908; text-align:center; padding:5px !important;}
+.textobaixo {text-align:center !important;}
+.produto {border:2px solid #CCC !important; margin-bottom:10px !important;}
+
+
+.lingua a {margin: 5px; width: 28px; height: 20px; }
+.lingua {height: 28px;}
+
+}
+
+
+.bn {width:100%; height:100%; margin:0 auto;}
+.bn img {width:100%; height:100%;}
+
+.frase {font-family: 'Open Sans', sans-serif; font-size:32px; color:#383F46; text-align:center; padding:7px;}
+.linha {border-bottom:2px solid #667766;}
+
+.titulolinks {font-family: 'Open Sans', sans-serif; font-size:30px; color:#003908; text-align:center; padding:10px;}
+.textolinks {font-family: 'Open Sans', sans-serif; font-size:14px;color:#383F46; text-align:center;margin-top:15px;}
+.vejamais {font-family: 'Open Sans', sans-serif; font-size:15px; text-align:center; padding:7px;font-weight:bold;}
+.vejamais a {color:#003906; text-decoration:none;}
+.vejamais a:hover {color:#CCD7CD;}
+
+.links1 {margin-top:15px;}
+.links1 ul {margin-left:-45px;}
+.links1 li {font-family: 'Open Sans', sans-serif; font-size:15px;display:block;padding:7px;}
+.links1 li a {color:#383F46; text-decoration:none;}
+.links1 li a:hover {color:#003906;font-weight:bold;}
+.links1 ul li img {max-width:100%; max-height:100%; margin-right:8px; margin-top:-5px;}
+
+.links2 {margin-top:15px;}
+.links2 ul {margin-left:-45px;}
+.links2 li {font-family: 'Open Sans', sans-serif; font-size:15px;display:block;padding:5px;}
+.links2 li a {color:#383F46; text-decoration:none;}
+.links2 li a:hover {color:#003906;font-weight:bold;}
+.links2 ul li img {max-width:100%; max-height:100%; margin-right:8px; margin-top:-5px;}
+
+.fundobaixo {min-height:306px; background-color:#CCD7CD;margin-bottom:20px;}
+.imgbaixo {}
+.imgbaixo img {max-width:100%; max-height:100%;}
+.textobaixo {font-family: 'Open Sans', sans-serif; font-size:17px; color:#003906; margin-top:8px;}
+
+
+.titulo {font-family: 'Open Sans', sans-serif; font-size:20px;color:#003906; font-weight:bold; margin-top:15px; margin-bottom:15px;}
+.texto {font-family: 'Open Sans', sans-serif; font-size:15px;color:#383F46; text-align:justify;}
+.texto a {}
+.texto a:hover {}
+.titulointerno {font-family: 'Open Sans', sans-serif; font-size:15px;color:#003906; font-weight:bold;}
+
+.imgcorpo {margin-top:35px; margin-bottom:15px;}
+.imgcorpo img {max-width:100%; max-height:100%;}
+.imginterna {margin-top:10px; margin-bottom:10px;}
+.imginterna img {max-width:100%; max-height:100%;}
+
+.produto {border:1px solid #CCC;}
+.tituloprod {font-family: 'Open Sans', sans-serif; font-size:20px;color:#383F46;margin-bottom:10px;}
+.imgprod {margin-top:10px; margin-bottom:10px; padding:15px;border-left:1px solid #CCC;}
+.imgprod img {max-width:100%; max-height:100%;}
+
+.margemtabela{width:auto; height:auto; margin-top:5px; font-family: 'Open Sans', sans-serif; font-size:14px; padding:10px;}
+.margemtabela input{width:100%; height:auto;}
+.margemtabela select{min-width:130px; height:auto; padding:2px;}
+.bt_form{width:65px; height:40px; border:none; border-radius:2px; background-color:#384047; font-family: 'Open Sans', sans-serif; font-size:13px; color:#FFF; margin-right:20px; cursor:pointer;}
+input{ font-family: 'Open Sans', sans-serif; color:#333; font-size:16px; margin-bottom:5px; border:1px solid #384047; border-radius:5px; padding:5px;}
+select{ font-family: 'Open Sans', sans-serif; color:#333; font-size:14px; margin-bottom:5px; border:1px solid #384047;}
+textarea{width:100%; min-width:270px; height:100px; font-size:16px; border:1px solid #384047; border-radius:5px;}
+
+#gallery{padding:10px;width: 100%;margin-top:10px;margin-bottom:10px;}
+#gallery a{text-decoration:none; }
+#gallery ul{list-style: none;}
+#gallery ul li{display: inline;margin-right:25px;}
+#gallery ul img{border: 1px solid #555;margin-bottom:20px;}
+#gallery ul a:hover img{border: 2px solid #B8C99A;color: #fff;}
+#gallery ul a:hover{color: #fff;}
+
+.rodape {min-height:100px; background:#D6D6D6; border-top:4px solid #384047;margin-top:-20px; padding-bottom: 10px; margin-bottom: 5px;}
+.titulorodapept {font-family: 'Open Sans', sans-serif; font-size:18px; color:#FFF; background-color:#384047; padding-left:20px; width:60%;}
+.titulorodapept2 {font-family: 'Open Sans', sans-serif; font-size:18px; color:#FFF; background-color:#384047; padding-left:20px; width:80%;}
+
+
+.titulorodape {font-family: 'Open Sans', sans-serif; font-size:18px; color:#FFF; background-color:#384047; padding-left:20px; width:40%;}
+.textorodape {font-family: 'Open Sans', sans-serif; font-size:14px; color:#383F46; margin-left:20px; margin-top:10px;}
+.textorodape2 {font-family: 'Open Sans', sans-serif; font-size:15px; color:#383F46; margin-left:20px; margin-top:10px; width:20%; float:left;}
+.imgrodape { width:50%; float:left; margin-top:10px;}
+.imgrodape img {max-width:100%; max-height:100%;}
+
+.produzido {margin-top:-20px; padding-bottom: 15px;}
+.copy {font-family: 'Open Sans', sans-serif; font-size:12px; color:#383F46; margin-top:2px;}
+.imgproduzido img {max-width:100%; max-height:100%; margin-top:2px;}
+
+.negociocuba{font-size: 27px; color: #384047; text-align: center; font-style: italic; }
+.negociocuba a{padding: 10px; text-decoration: none; color: #384047 !important; font-size: 17px !important; }
+.negociocuba a:hover{color: #003906 !important; font-weight: bold;}
+
+.negociocubaTopo{font-size: 23px; color: #990000; text-align: right; font-style: italic; margin-top: 15px;  }
+.negociocubaTopo a{padding: 10px; text-decoration: none; color: #990000 !important; font-size: 17px !important; }
+.negociocubaTopo a:hover{color: #003906 !important; font-weight: bold;}
+
+.negociocubaTopo2{font-size: 18px; color: #990000; text-align: right; font-style: italic; margin-top: 15px;  }
+.negociocubaTopo2 a{padding: 10px; text-decoration: none; color: #990000 !important; font-size: 16px !important; }
+.negociocubaTopo2 a:hover{color: #003906 !important; font-weight: bold;}
+
+.funocuba{background:#B8C99A; width: 100%; padding: 12px; margin-top: 15px;  margin-bottom: 10px;}
+
+.espaco{margin-bottom: 20px;}
+
+.imgdireita{float: right; padding: 12px;}
+.imgesquerda{float: left; padding: 12px;}
+
+.manualonline h3{font-size: 25px; color: #667766;}
+.manualonline h2{font-size: 18px; color: #555;}
+.manualonline h4{font-size: 18px; color: #667766;}
+.manualonline p{color: #5A6F78; text-align: justify;}
+.margemseta{margin-top: -5px;}
+
+.titulolubem{font-size: 35px; color:#063873; text-align: center;}
+.titulolubemcinza{font-size: 35px; color:#666; text-align: center;}
+
+.titulolubemprincipal{font-size: 35px; color:#063873; margin-top: -17px;}
+.titulolubemprincipal2{font-size: 30px; color:#063873; margin-top: -35px;}
+
+.azul{color:#063873; font-size: 30px; margin-left: 30px;}
+.textoazul{color:#063873 !important; }
+.textoazuldestaque{color:#063873 !important; font-size: 21px;}
+
+.titulovermelho{color: #E10000 !important;}
+
+.fundocinza{background: #CCC; padding:10px;}
+.fundocinza h2{font-size: 30px; font-style: italic; color: #000; padding-left: 20px;}
+
+
+
+.manualonline ul.square {
+	list-style-type: square;
+	color: #5A6F78;
+	}
+
+.conteucentral p{text-align: justify;}
+
+.img_corpo {margin-top:20px !important; margin-bottom:10px;}
+
+.img_corpo img
+{
+  max-width: 90%;
+  max-height: 90%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  box-shadow: #777777; 
+  float: right;
+  margin-left: 20px;
+}
+
+
+.cruzaco h1{color: #FF6600 !important;}
+.cruzaco h2{color: #FF6600 !important;}
+.cruzaco h3{color: #FF6600 !important;}
+.cruzaco h4{color: #FF6600 !important; }
+.cruzaco h5{text-align: center; font-style: italic;}
+
+.fiolaranja{width: 100%; border: 1px solid #FF6600; margin:5px 0px 5px 0px; float: left}
+
+.fiolaranjaMB{width: 100%; border: 1px solid #FF6600; margin:5px 0px 20px 0px; float: left}
+
+.espacovideos{width: 100%; height: 30px; float: left;}
+
+.espacotitulo{float: left;}
+
+.cafedamata h1, h2{color: #FFCC00; font-family: 'Open Sans', sans-serif;}
+.cafedamata p{text-align: justify;}
+.cafedamata h3{color: #637625; font-family: 'Open Sans', sans-serif;}
+.cafedamata h5{color: #637625; font-family: 'Open Sans', sans-serif; font-weight: bold;}
+
+
+.conteudo{float: left}
+.magemleft{margin-left: 30px;}
+
+.cafe h4{text-align: center; color: #7D5E44; font-style: italic; font-size: 15px !important;} 
+
+.espacoface{margin-top: 10px;}
+
+.mineral p{text-align: justify;}
+
+.mineral h3{color: #2780c5 !important;}
+
+.mineral h2{color: #2780c5 !important;}
+
+
+.umbra h1{color: #2780c5 !important;}
+.umbra h2{color: #999 !important; margin-bottom:20px;}
+.umbra h3{color: #2780c5 !important;}
+.umbra h4{color: #2780c5 !important; }
+.umbra h5{text-align: center; font-style: italic; color: #2780c5 !important; }
+
+.fioazulMB{width: 100%; border: 1px solid #2780c5; margin:5px 0px 20px 0px; float: left}
+
+.fioazul{width: 100%; border: 1px solid #2780c5; margin:5px 0px 20px 0px; }
+
+
+.fundocinzagroup{background: #F2F2F2;}
+
+.tituloproduct{float: left}
+
+.fiocinza{background: #ccc; width: 100%; height: 2px; margin-bottom:10px;}
+
+.margemfotos{padding-top: 20px; padding-bottom:20px;}
+
+.margemfotos p{text-align: center; padding: 5px; }
+
+.menuclientestec ul{list-style: none; padding: 0px; margin:0px;}
+.menuclientestec ul li{float: left; padding: 10px;}
+
+
+.fundocinzapag{padding: 15px; background: #ECECED; margin-bottom: 15px;}
+.fundocinzapag h4{color: #FE7F0F !important;}
+
+.fundocinzapag-2{padding: 15px; background: #BEE6B2; margin-bottom: 15px;}
+.fundocinzapag-2 h4{color: #FE7F0F !important;}
+
+.tecnocitrus p{text-align: justify;}
+
+.tecnocitrus h2{color: #006633 !important;}
+.tecnocitrus h3{color: #006633 !important;}
+
+.imggreen img{margin-bottom:25px; border-bottom: 2px solid #333; padding-bottom:15px;}
+
+.green h1 {margin-left:30px;}
+.verde{color: #1A6600; font-size: 40px !important;}
+.vermelho{color: #D90000; font-size: 40px !important;}
+.azul{color: #26357F; font-size: 40px !important;}
+.preto{color: #000; font-size: 40px !important;}
+
+.verde-2{color: #1A6600;}
+.vermelho-2{color: #D90000; }
+.azul-2{color: #26357F; }
+.preto-2{color: #000; font-size:}
+
+.textocentralizador{text-align: center;}
+
+.texto35px{font-size: 35px !important;}
+
+.margemnegativa{margin-top: -120px;}
+
+
+.textoLaranja{color: #f16c09 !important;}
+
+
+
